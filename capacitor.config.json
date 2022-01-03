@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "Facebook_ionic",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}

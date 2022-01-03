@@ -1,0 +1,13 @@
+<ion-searchbar [(ngModel)]="terms"></ion-searchbar>
+
+<ion-card *ngFor="let post of posts ; let i = index;">
+  
+  <ion-card-content>
+    <h2 [ngStyle]="{'font-size': fontSize + 'pt'}">
+    <ion-item>
+      <ion-icon name="person-circle-outline"></ion-icon>
+      <ion-label><b>&nbsp;  {{post.username}}</b> </ion-label>
+    </ion-item></h2>
+    <ion-img src="http://localhost:8000/facebookUAS/img/{{post.url}}" routerLink='/postsdetail/{{i}}'></ion-img>   
+   </ion-card-content>
+</ion-card>

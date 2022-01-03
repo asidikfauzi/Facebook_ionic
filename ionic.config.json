@@ -1,0 +1,7 @@
+{
+  "name": "Facebook_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
